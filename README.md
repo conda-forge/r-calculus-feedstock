@@ -1,11 +1,22 @@
+About r-calculus-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-calculus-feedstock/blob/main/LICENSE.txt)
+
 About r-calculus
-================
+----------------
 
 Home: https://calculus.guidotti.dev
 
 Package license: GPL-3.0-only
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-calculus-feedstock/blob/main/LICENSE.txt)
+Summary: Efficient C++ optimized functions for numerical and symbolic calculus as described in Guidotti (2022) <doi:10.18637/jss.v104.i05>. It includes basic arithmetic, tensor calculus, Einstein summing convention, fast computation of the Levi-Civita symbol and generalized Kronecker delta, Taylor series expansion, multivariate Hermite polynomials, high-order derivatives, ordinary differential equations, differential operators (Gradient, Jacobian, Hessian, Divergence, Curl, Laplacian) and numerical integration in arbitrary orthogonal coordinate systems: cartesian, polar, spherical, cylindrical, parabolic or user defined by custom scale factors.
+About r-calculus
+----------------
+
+Home: https://calculus.guidotti.dev
+
+Package license: GPL-3.0-only
 
 Summary: Efficient C++ optimized functions for numerical and symbolic calculus as described in Guidotti (2022) <doi:10.18637/jss.v104.i05>. It includes basic arithmetic, tensor calculus, Einstein summing convention, fast computation of the Levi-Civita symbol and generalized Kronecker delta, Taylor series expansion, multivariate Hermite polynomials, high-order derivatives, ordinary differential equations, differential operators (Gradient, Jacobian, Hessian, Divergence, Curl, Laplacian) and numerical integration in arbitrary orthogonal coordinate systems: cartesian, polar, spherical, cylindrical, parabolic or user defined by custom scale factors.
 

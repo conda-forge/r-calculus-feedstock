@@ -1,4 +1,4 @@
-{% set version = '1.0.0' %}
+{% set version = "1.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/calculus_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/calculus/calculus_{{ version }}.tar.gz
-  sha256: 8d85cbbb94991c967b2484834534abb82941e5d7562f414402584065ae2486a3
+  sha256: 20e09335be946c08f80b5c55358fd8ad67d0f8c2dc9ece503adf2464de5b00dd
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   rpaths:
     - lib/R/lib/
@@ -47,14 +47,8 @@ test:
 about:
   home: https://calculus.guidotti.dev
   license: GPL-3.0-only
-  summary: 'Efficient C++ optimized functions for numerical and symbolic calculus as described
-    in Guidotti (2022) <doi:10.18637/jss.v104.i05>. It includes basic arithmetic, tensor
-    calculus, Einstein summing convention, fast computation of the Levi-Civita symbol
-    and generalized Kronecker delta, Taylor series expansion, multivariate Hermite polynomials,
-    high-order derivatives, ordinary differential equations, differential operators
-    (Gradient, Jacobian, Hessian, Divergence, Curl, Laplacian) and numerical integration
-    in arbitrary orthogonal coordinate systems: cartesian, polar, spherical, cylindrical,
-    parabolic or user defined by custom scale factors.'
+  summary: 'Efficient C++ optimized functions for numerical and symbolic calculus as described in Guidotti (2022) <doi:10.18637/jss.v104.i05>. It includes basic arithmetic, tensor calculus, Einstein summing convention, fast computation of the Levi-Civita symbol and generalized Kronecker delta, Taylor series expansion, multivariate
+    Hermite polynomials, high-order derivatives, ordinary differential equations, differential operators (Gradient, Jacobian, Hessian, Divergence, Curl, Laplacian) and numerical integration in arbitrary orthogonal coordinate systems: cartesian, polar, spherical, cylindrical, parabolic or user defined by custom scale factors.'
   license_family: GPL3
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3

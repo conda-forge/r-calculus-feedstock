@@ -1,4 +1,4 @@
-{% set version = "1.0.1" %}
+{% set version = "1.1.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/calculus_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/calculus/calculus_{{ version }}.tar.gz
-  sha256: 20e09335be946c08f80b5c55358fd8ad67d0f8c2dc9ece503adf2464de5b00dd
+  sha256: 175e90360b2e5085e956d3714ab4d6fbf2710402b04be83079e2a0b324133198
 
 build:
-  number: 2
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
